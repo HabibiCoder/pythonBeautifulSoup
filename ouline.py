@@ -1,7 +1,11 @@
 #import beautifulsoup and request here
 
 def displayJobDetails():
+    
     print("Display job details")
+    
+    # My first change
+    print ("Showing results")
 
 #function to get job list from url 'https://www.indeed.com/jobs?q={role}&l={location}'
 def getJobList(role,location):
